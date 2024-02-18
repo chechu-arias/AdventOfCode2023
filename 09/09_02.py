@@ -17,12 +17,12 @@ for sequence in input:
             else:
                 sequence_values[-1].append(diff_value)
             index += 1
-    
+
     aux = 0
     sequence_values.reverse()
     for sequence in sequence_values:
         aux = sequence[0] - aux
 
-    res += aux    
+    res += aux
 
 print(res)

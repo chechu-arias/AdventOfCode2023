@@ -17,7 +17,7 @@ for sequence in input:
             else:
                 sequence_values[-1].append(diff_value)
             index += 1
-    
+
     res += sum([current_sequence[-1] for current_sequence in sequence_values])
     print(sum([current_sequence[-1] for current_sequence in sequence_values]))
 
